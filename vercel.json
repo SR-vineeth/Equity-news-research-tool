@@ -2,9 +2,12 @@
     "version": 2,
     "builds": [
       {
-        "src": "main.py",  
+        "src": "main.py",
         "use": "@vercel/python"
       }
-    ]
+    ],
+    "env": {
+      "PYTHON_VERSION": "3.12.4" 
+    }
   }
   
